@@ -29,7 +29,9 @@
 
 
 }
-
+body{
+    background: #F5F8FF;
+}
 /* header */
 
 .header {
@@ -56,7 +58,8 @@
     font-weight: 900;
     line-height: 150%;
 }
-.primary-btn:hover{
+
+.primary-btn:hover {
     background: lightpink;
 }
 
@@ -71,4 +74,44 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+/* main */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+/* action section  */
+.action{
+    margin-bottom: 100px;
+}
+.action-container {
+    display: flex;
+    align-items: center;
+    gap: 250px;
+    margin-left: 30px;
+}
+
+.action-container-info h1 {
+    color: #252432;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.action-container-info p {
+    height: 60px;
+    color: rgba(37, 36, 50, 0.50);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.action-container-img img {
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+
 }
