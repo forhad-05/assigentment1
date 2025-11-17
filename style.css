@@ -29,9 +29,20 @@
 
 
 }
-body{
+
+.caption-title {
+    text-align: center;
+    color: #252432;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+body {
     background: #F5F8FF;
 }
+
 /* header */
 
 .header {
@@ -52,7 +63,7 @@ body{
 }
 
 .nav h3 {
-    color: var(--Primary-Color, #4E47FF);
+    color: #4E47FF;
     font-size: 34px;
     font-style: normal;
     font-weight: 900;
@@ -84,9 +95,10 @@ main {
 }
 
 /* action section  */
-.action{
+.action {
     margin-bottom: 100px;
 }
+
 .action-container {
     display: flex;
     align-items: center;
@@ -114,4 +126,41 @@ main {
     height: 328px;
     border-radius: 48px;
 
+}
+
+/* productive-user */
+.productive-user {
+    border-radius: 24px;
+    height: 306px;
+    background: rgba(78, 71, 255, 0.10);
+    padding: 50px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.productive-user-info {
+    display: flex;
+    align-items: center;
+    gap: 158px;
+}
+
+.productive-user-info h1 {
+    color: #4E47FF;
+    margin-bottom: -20px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: normal;
+    height: 80px;
+
+}
+
+..productive-user-info p {
+    color: rgba(0, 0, 0, 0.50);
+    height: 24px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: 400;
 }
