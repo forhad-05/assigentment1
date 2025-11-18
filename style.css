@@ -92,7 +92,7 @@ main {
     max-width: 1140px;
     margin: 0 auto;
     padding-top: 100px;
-    
+
 }
 
 /* action section  */
@@ -314,10 +314,58 @@ main {
     margin-top: 5px;
     color: rgba(0, 0, 0, 0.50);
 }
-.form-info textarea{
+
+.form-info textarea {
     height: 135px;
 }
-.form-info input[type="submit"]{
+
+.form-info input[type="submit"] {
     margin-top: 10px;
-      width: 90%;
+    width: 90%;
+}
+
+/* footer */
+footer {
+    background-color: white;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.footer-div {
+    text-align: center;
+}
+
+footer h1 {
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+footer p {
+    width: 531px;
+    text-align: center;
+    color: #8987A1;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 0px;
+}
+
+.ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: #8987A1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
 }
